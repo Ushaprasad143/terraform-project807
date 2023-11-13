@@ -4,7 +4,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-0a6ed6689998f32a5"
+  ami             = "ami-02643bbd3f82ce3b5"
   instance_type   = "t2.micro"
   key_name        = "nani kpm"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -23,7 +23,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-0a6ed6689998f32a5"
+  ami             = "ami-02643bbd3f82ce3b5"
   instance_type   = "t2.micro"
   key_name        = "nani kpm"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -42,7 +42,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-0a6ed6689998f32a5"
+  ami             = "ami-02643bbd3f82ce3b5"
   instance_type   = "t2.micro"
   key_name        = "nani kpm"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -53,7 +53,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-0a6ed6689998f32a5"
+  ami             = "ami-02643bbd3f82ce3b5"
   instance_type   = "t2.micro"
   key_name        = "nani kpm"
   vpc_security_group_ids = [aws_security_group.five.id]
